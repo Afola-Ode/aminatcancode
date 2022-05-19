@@ -18,7 +18,7 @@ const Login = ({ setToken }) => {
       email,
       password,
     });
-    localStorage.setItem("token", token);
+    // localStorage.setItem("token", token);
     setToken(token);
   };
 
